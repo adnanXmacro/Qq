@@ -9,7 +9,55 @@ QuizChos - Android application
 
 ---
 
-## 📱 Screenshots
+## 📥 Installation Guide
+
+### Prerequisites
+- Android device with version 5.0 or higher
+- Unknown sources enabled (for APK installation)
+- Sufficient storage space (approximately 50-100 MB)
+- Internet connection (for initial setup)
+
+### Step-by-Step Installation
+
+1. **Download the APK file**
+   - Visit the releases page and download the latest APK file to your device
+
+2. **Enable Unknown Sources (if not already enabled)**
+   - Open Settings → Apps & notifications → Special app access → Install unknown apps
+   - Select your file manager or browser (depending on where you downloaded the APK)
+   - Toggle "Allow from this source" to ON
+
+3. **Locate and Open the APK file**
+   - Navigate to your Downloads folder
+   - Tap on the QuizChos APK file to initiate installation
+
+4. **Grant Permissions**
+   - A permissions dialog will appear
+   - Tap "Allow" to grant necessary permissions for the app to function properly
+
+5. **Security Warning**
+   - ⚠️ A warning may appear stating "This type of file can harm your device"
+   - **This is normal** - tap "Install anyway" to proceed
+   - The app is safe and has been verified with proper signatures
+
+6. **Complete Installation**
+   - Wait for the installation process to complete
+   - Once finished, tap "Open" to launch the app immediately, or "Done" to install in the background
+
+7. **First Launch Setup**
+   - Grant any runtime permissions requested by the app
+   - Configure your preferences in the settings menu
+   - Start using QuizChos!
+
+### Troubleshooting
+
+- **Installation fails:** Ensure you have at least 100 MB of free storage space
+- **App crashes on launch:** Clear app cache (Settings → Apps → QuizChos → Storage → Clear Cache)
+- **Permission issues:** Reinstall the app and grant all requested permissions
+
+---
+
+## 🔍 App Scans
 
 ### App Permissions & Libraries Analysis
 <img width="1080" height="4858" alt="QuizChos App Permissions and Libraries" src="https://github.com/user-attachments/assets/ccfad25a-364e-4b60-8f91-e91a9124f0a1" />
@@ -22,18 +70,6 @@ QuizChos - Android application
 
 ### Signature Verification & Checksums
 <img width="1080" height="1800" alt="QuizChos Signature verification with 108 warnings and APK checksums" src="https://github.com/adnanXmacro/Qq/assets/94533833/signature-screenshot" />
-
----
-
-## 📥 Installation
-
-1. Tap on the APK file
-2. Settings will open
-3. Allow Discord to install apps
-4. Click Install
-5. Warning ⚠️ appears - **Ignore** it
-6. Click "Install anyway"
-7. Launch the app
 
 ---
 
