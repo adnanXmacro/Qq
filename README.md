@@ -80,5 +80,5 @@ QuizChos - Android application
 - **Trackers:** None found
 - **Signature:** Verified with 108 warnings
 - **Signature schemes:** v1, v2, v3
-- **Issuer:** CN=WebToApp, O=WebToApp, C=CN
+- **Issuer:** CN=8BiT Softworks, O=WebToApp, C=CN
 - **Algorithm:** SHA256withRSA
