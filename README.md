@@ -15,6 +15,7 @@ QuizChos - Android application
 <img width="1080" height="4858" alt="Screenshot_20260719-213554_transfer_2026-07-19_220936" src="https://github.com/user-attachments/assets/ccfad25a-364e-4b60-8f91-e91a9124f0a1" />
 
 
+<img width="1080" height="2400" alt="Screenshot_20260719-214225_transfer_2026-07-19_221055" src="https://github.com/user-attachments/assets/7ef4aef0-98a4-424b-9ddc-4727cbe6ce42" />
 
 ---
 
