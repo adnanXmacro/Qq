@@ -12,6 +12,7 @@ QuizChos - Android application
 ## 📱 Screenshots
 
 
+<img width="1080" height="4858" alt="Screenshot_20260719-213554_transfer_2026-07-19_220936" src="https://github.com/user-attachments/assets/ccfad25a-364e-4b60-8f91-e91a9124f0a1" />
 
 
 
