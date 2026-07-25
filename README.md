@@ -51,7 +51,7 @@ QuizChos - Android application
 
 ### Troubleshooting
 
-- **Installation fails:** Ensure you have at least 100 MB of free storage space
+- **Installation fails:** Ensure you have at least 50 MB of free storage space
 - **App crashes on launch:** Clear app cache (Settings → Apps → QuizChos → Storage → Clear Cache)
 - **Permission issues:** Reinstall the app and grant all requested permissions
 
