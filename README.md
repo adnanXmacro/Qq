@@ -1,6 +1,9 @@
-# quiZchaoZ-app
+# Quiz Chaos (QuizChos) - Free Quiz Game for Android
 
-QuizChos - Android application
+Quiz Chaos - Free trivia quiz game for Android. Thousands of questions across 20+ categories, daily challenges and global leaderboards.
+
+- **Official website:** https://adnanXmacro.github.io/Qq/
+- **Download APK:** [QuizChaos_vanilla.apk](https://github.com/adnanXmacro/Qq/raw/main/QuizChaos_vanilla.apk)
 
 **Built by:** 8BiT Softworks  
 **Powered by:** projectAdnan
