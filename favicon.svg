@@ -1,6 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect x="1" y="1" width="30" height="30" rx="8" fill="#2563EB"/>
-  <path d="M9 20l4-8 4 8 4-4-4 4z" fill="#ffffff"/>
-  <circle cx="22.5" cy="11.5" r="3" fill="#F59E0B"/>
-  <circle cx="22.5" cy="20.5" r="3" fill="#F59E0B"/>
+  <rect width="32" height="32" fill="#050303"/>
+  <rect x="1" y="1" width="30" height="30" fill="none" stroke="#e50914" stroke-width="2"/>
+  <text x="16" y="23" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="16" fill="#e50914">QC</text>
 </svg>
