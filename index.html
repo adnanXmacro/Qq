@@ -52,7 +52,12 @@
 </script>
 </head>
 <body>
-<div class="fog" aria-hidden="true"></div>
+<div class="fog" aria-hidden="true">
+  <span class="orb orb-a"></span>
+  <span class="orb orb-b"></span>
+  <span class="orb orb-c"></span>
+</div>
+<div class="scroll-progress" aria-hidden="true"></div>
 <a class="skip-link" href="#main">Skip to main content</a>
 
 <header class="site-header">
@@ -92,7 +97,7 @@
       </h1>
       <p class="hero-sub">A free daily arena for Bangladesh medical-college admission. Real questions. Five Houses. A dragon that grows only if you come back tomorrow.</p>
       <div class="hero-actions">
-        <a class="vine-btn" href="https://github.com/adnanXmacro/Qq/raw/main/QuizChaos_vanilla.apk" aria-label="Download the Quiz Chaos APK">
+        <a class="vine-btn js-magnetic" href="https://github.com/adnanXmacro/Qq/raw/main/QuizChaos_vanilla.apk" aria-label="Download the Quiz Chaos APK">
           <svg class="vine-frame" viewBox="0 0 240 80" preserveAspectRatio="none" aria-hidden="true">
             <path d="M18 64 C 8 48, 22 18, 54 22 C 78 24, 86 44, 112 40"/>
             <path d="M222 16 C 232 32, 218 62, 186 58 C 162 56, 154 36, 128 40"/>
@@ -186,31 +191,31 @@
       </div>
       <div class="houses">
         <article class="house-card">
-          <img src="img/houses/se.png" alt="" width="88" height="88">
+          <img src="img/houses/se.png" alt="House of Silver Eagle crest" width="88" height="88">
           <h3>House of Silver Eagle</h3>
           <p class="tagline">Quiet precision. Patient strike.</p>
           <p class="lore">They wait on the high thermal until the answer is certain. No wasted attempt, no loud claim — one clean strike when the stem is fully seen. Silver Eagle keeps score in silence.</p>
         </article>
         <article class="house-card">
-          <img src="img/houses/eg.png" alt="" width="88" height="88">
+          <img src="img/houses/eg.png" alt="House of Ever Garden crest" width="88" height="88">
           <h3>House of Ever Garden</h3>
           <p class="tagline">Growth that never withers.</p>
           <p class="lore">A garden that outlasts seasons. Ever Garden treats every wrong option as compost: practise, miss, return. Members grow slow on purpose, and the vine does not die in exam week.</p>
         </article>
         <article class="house-card">
-          <img src="img/houses/nf.png" alt="" width="88" height="88">
+          <img src="img/houses/nf.png" alt="House of Night Fury crest" width="88" height="88">
           <h3>House of Night Fury</h3>
           <p class="tagline">The dark is where we strike.</p>
           <p class="lore">Night Fury studies after the lights go. They prefer the hard paper, the late clock, the question nobody wants. When the room is quiet, they are already answering.</p>
         </article>
         <article class="house-card">
-          <img src="img/houses/ms.png" alt="" width="88" height="88">
+          <img src="img/houses/ms.png" alt="House of MorningStar crest" width="88" height="88">
           <h3>House of MorningStar</h3>
           <p class="tagline">First light. First strike.</p>
           <p class="lore">Dawn is a weapon. MorningStar opens the daily before the city wakes, first on the board, first in the duel queue. They believe the earliest mark is the cleanest.</p>
         </article>
         <article class="house-card">
-          <img src="img/houses/dr.png" alt="" width="88" height="88">
+          <img src="img/houses/dr.png" alt="House of The Dragon crest" width="88" height="88">
           <h3>House of The Dragon</h3>
           <p class="tagline">Born of fire. Feared by all.</p>
           <p class="lore">They keep the creature, not just the streak. House of The Dragon treats heat as duty: play every day or watch the fire go out. Other Houses hear them coming.</p>
@@ -226,11 +231,21 @@
         <h2 id="shots-heading">The Paper</h2>
       </div>
       <div class="shots">
-        <img src="img/Screenshot_20260903-193821.jpg" alt="Quiz Chaos screenshot" loading="lazy" width="360" height="220">
-        <img src="img/Screenshot_20260903-193831.jpg" alt="Quiz Chaos screenshot" loading="lazy" width="360" height="220">
-        <img src="img/Screenshot_20260903-193835.jpg" alt="Quiz Chaos screenshot" loading="lazy" width="360" height="220">
-        <img src="img/Screenshot_20260903-193852.jpg" alt="Quiz Chaos screenshot" loading="lazy" width="360" height="220">
-        <img src="img/Screenshot_20260903-193913.jpg" alt="Quiz Chaos screenshot" loading="lazy" width="360" height="220">
+        <figure class="shot-frame">
+          <img src="img/Screenshot_20260903-193821.jpg" alt="Quiz Chaos daily paper screen" loading="lazy" width="360" height="220">
+        </figure>
+        <figure class="shot-frame">
+          <img src="img/Screenshot_20260903-193831.jpg" alt="Quiz Chaos house selection screen" loading="lazy" width="360" height="220">
+        </figure>
+        <figure class="shot-frame">
+          <img src="img/Screenshot_20260903-193835.jpg" alt="Quiz Chaos practice mode screen" loading="lazy" width="360" height="220">
+        </figure>
+        <figure class="shot-frame">
+          <img src="img/Screenshot_20260903-193852.jpg" alt="Quiz Chaos 1v1 duel screen" loading="lazy" width="360" height="220">
+        </figure>
+        <figure class="shot-frame">
+          <img src="img/Screenshot_20260903-193913.jpg" alt="Quiz Chaos streak dragon screen" loading="lazy" width="360" height="220">
+        </figure>
       </div>
     </div>
   </section>
@@ -249,7 +264,7 @@
         <div class="step"><div class="step-num">4</div><h3>Play</h3><p>Launch Quiz Chaos and sit the daily.</p></div>
       </div>
       <div class="download-cta">
-        <a class="vine-btn" href="https://github.com/adnanXmacro/Qq/raw/main/QuizChaos_vanilla.apk" aria-label="Download the free Quiz Chaos APK">
+        <a class="vine-btn js-magnetic" href="https://github.com/adnanXmacro/Qq/raw/main/QuizChaos_vanilla.apk" aria-label="Download the free Quiz Chaos APK">
           <svg class="vine-frame" viewBox="0 0 240 80" preserveAspectRatio="none" aria-hidden="true">
             <path d="M18 64 C 8 48, 22 18, 54 22 C 78 24, 86 44, 112 40"/>
             <path d="M222 16 C 232 32, 218 62, 186 58 C 162 56, 154 36, 128 40"/>
@@ -311,7 +326,7 @@
       <div class="cta-band">
         <h2>The upside down of exam prep</h2>
         <p>Pick a House. Hatch a dragon. Sit the daily.</p>
-        <a class="vine-btn" href="https://github.com/adnanXmacro/Qq/raw/main/QuizChaos_vanilla.apk">
+        <a class="vine-btn js-magnetic" href="https://github.com/adnanXmacro/Qq/raw/main/QuizChaos_vanilla.apk">
           <svg class="vine-frame" viewBox="0 0 240 80" preserveAspectRatio="none" aria-hidden="true">
             <path d="M18 64 C 8 48, 22 18, 54 22 C 78 24, 86 44, 112 40"/>
             <path d="M222 16 C 232 32, 218 62, 186 58 C 162 56, 154 36, 128 40"/>
@@ -355,6 +370,8 @@
     </div>
   </div>
 </footer>
-<script src="js/site.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js" defer></script>
+<script src="js/site.js" defer></script>
 </body>
 </html>
